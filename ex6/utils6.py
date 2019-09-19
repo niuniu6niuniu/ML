@@ -303,7 +303,7 @@ def getVocabList():
     %   and returns a cell array of the words in vocabList.
     :return:
     """
-    vocabList = np.genfromtxt(join('Data', 'vocab.txt'), dtype=object)
+    vocabList = np.genfromtxt(join('ex6', 'vocab.txt'), dtype=object)
     return list(vocabList[:, 1].astype(str))
 
 
